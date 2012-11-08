@@ -1,6 +1,6 @@
 body{
 	padding:02.7777778%; /*25px/900px*/
-	max-width: 85%; /*935px*/
+	max-width:935px;
 	margin: 0 auto;
 	font:100%;/*16px*/ 
 	background-color: rgba(51,204,225,.2);
@@ -10,16 +10,17 @@ h1{
 	font-family: 'Sofadi One', cursive;
 	font-size:3.125em; /*50px*/
 	float:right;
-	width:052.783726; /*493px*/
+	width:52.783726%; /*493px*/
+	margin-right:09.127789%; /*45px*/
 }
 
 h2{
 	font-family: 'Cutive Mono', serif;
 	font:1em;
 	float:right;
-	width:032.919255%; /*318px*/
-	margin-right:08.0213904%;/*75px*/
-	margin-top: -130px;
+	width:32.919255%; /*318px*/
+	margin-right:18.823529%;/*175px*/
+	margin-top: -100px;
 	text-shadow: 2px 4px 8px #111;
 }
 #navagation{
@@ -35,7 +36,7 @@ h2{
 }
 
 #navagation li{
-	width:010.330579%;/*100px*/
+	width:10.330579%;/*100px*/
 	float:left;
 }
 
@@ -48,18 +49,18 @@ h2{
 }
 section p{
 	font:1em;
-	width: 030.959752%;/*300px*/
+	width: 30.959752%;/*300px*/
 	height: 169px;
 	float:left;
 }
 aside{
-	width: 023.219814%;/*225*/
+	width: 23.219814%;/*225*/
 	height: 169px;
 	float:left;
 	padding-left:007.739938%; /*75px*/
 }
 #free{
-	width:030.959752% /*300px*/
+	width:30.959752% /*300px*/
 }
 
 h3{
@@ -89,7 +90,7 @@ h4{
 	height:30px;
 	line-height:30px;
 	text-align:center;
-	width:99.896801% /*968px*/
+	width:99.896801%; /*968px*/
 	-moz-box-shadow:5px 5px 5px #666;
 	-webkit-box-shadow:5px 5px 5px #666;
 	box-shadow:5px 5px 5px #666;
@@ -101,7 +102,7 @@ h5{
 	height:30px;
 	line-height:30px;
 	text-align:center;
-	width:99.896801% /*968px*/
+	width:99.896801%; /*968px*/
 	-moz-box-shadow:5px 5px 5px #666;
 	-webkit-box-shadow:5px 5px 5px #666;
 	box-shadow:5px 5px 5px #666;
@@ -127,6 +128,7 @@ img{
 }
 div{
 	width:033.469806%; /*372px*/
+}
 	
 
 /*media queries
@@ -134,21 +136,23 @@ div{
 ============================================================================= */
 
 /*Tablet Portrait size to standard 935px (devices and browsers)*/
-	@media screen and (min-width:082.139037%/*768px*/)and(max-width:099.893048%/*934px*/){ 
-		body{
-			background-color:rgba(204,204,204,.2);
-		}
-
+@media screen and (min-width:768px)and(max-width:934px){ 
+	body{background-color:green;}
 }
 
 /*Mobile Landscape  size to Tablet Portrait (devices and browsers)*/
 @media only screen and (min-width:480px)and(max-width:767px){ 
+	
+
 }
 
 
 /*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
 @media only screen and (max-width:479px){
+	
+
 }
+
 
 
 
