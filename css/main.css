@@ -2,8 +2,8 @@ body{
 	padding:02.7777778%; /*25px/900px*/
 	max-width:935px;
 	margin: 0 auto;
-	font:100%;/*16px*/ 
-	background-color: rgba(51,204,225,.2);
+	font:100%;/*16px*/
+	background-image: url(../images/chainmail.jpg);
 }
 
 h1{
@@ -12,15 +12,16 @@ h1{
 	float:right;
 	width:52.783726%; /*493px*/
 	margin-right:09.127789%; /*45px*/
+	margin-top:-5px;
 }
 
 h2{
 	font-family: 'Cutive Mono', serif;
-	font:1em;
+	font-size:1.4375em; /*23px*/
 	float:right;
 	width:32.919255%; /*318px*/
 	margin-right:18.823529%;/*175px*/
-	margin-top: -100px;
+	margin-top: -90px;
 	text-shadow: 2px 4px 8px #111;
 }
 #navagation{
@@ -176,12 +177,15 @@ div{
 
 /*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
 @media only screen and (max-width:479px){
-	body{background-color:green;}
+	
 	#lotusflower{
 		display:none;
 		}
 	h1{
 		float:none;
+		font-size:50px;
+		width:90%;
+		margin:0 auto;
 		}
 	h2{
 		float:none;
@@ -196,20 +200,19 @@ div{
 		display:none;
 		}
 	#free{
-		display:none;
+		overflow:hidden;
+		width:90%;
+		/*display:none;*/
 		}
 	#images li{
 		float:none;
+		margin:0 auto;
 		}
 	#navagation li{
 		float:none;
-		}
-	
+		margin:0 auto;
+		}	
 }
-
-
-
-
 
 
 
