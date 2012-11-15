@@ -2,15 +2,19 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/order.css">
+		<link href='http://fonts.googleapis.com/css?family=Sofadi+One' rel='stylesheet' 
+		type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' 
+		type='text/css'>
 		<title>Metal Lotus Studios</title>
 	</head>
 	<body>
-
+	
 		<h1 id="header">Metal Lotus Studio</h1>
 		<h2>Woven Metal artisans</h2>
+		
 	
-	<img src="images/lotusflower.jpg" width="372" height="236" alt="Photo of lotus flower"
-	title="Lotus Flower">
 	<ul id="navagation">
 		<li><a href="index.html">Home</a></li>
 		<li><a href="order.html">Order</a></li>
@@ -19,15 +23,143 @@
 
 	<p>When you choose to place an order with us, <strong>please take time and mesure 
 	your wrist or ankle to insure we can build you a the size that fits you.</strong> 
-	If for some reason you cannot add in your measurements, thats not a problem just try
-	to give us an estaminet size and we can work with you from there. If you are unsure 
-	of the size or if it is for someone else just let us know and when we ship it there 
-	will be a prepaid envelope and a measuring inside. So just try it on and wright down 
+	If it is for someone else just let us know and when we ship it there will be a 
+	prepaid envelope and a measuring inside. So just try it on and wright down 
 	the measurements, and send it back we will fix the size and ship it back out no 
 	charge to you.</p>
-
-	<p>In order to place a order please contact us at metallotusstudios@gmail.com<p>
-
+	
+	<h3>Order Form</h3>
+	
+	<form method="post" action="mailto:metallotusstudios@gmail.com">
+		<fieldset>
+			<legend>Place Your Order Here</legend>
+				<fieldset>
+				
+					<legend>Who Are You</legend>
+					
+					<div>
+						<label for="name_first">First Name :</label>
+						<input type="text" name="name_first" id="name_first"/>
+					</div>
+					
+					<div>
+						<label for="name_last">Last Name :</label>
+						<input type="text" name="name_last" id="name_last"/>
+					</div>
+					
+					<div>				
+						<label for="address">Address :</label>
+						<input type="text" name="address" id="address"/>
+					</div>
+					
+					<div>
+						<label for="apartment">Apartment #</label>
+						<input type="text" name="apartment" id="apartment"/>
+					</div>
+					
+					<div>
+						<label for="city">City :</label>
+						<input type="text" name="city" id="city"/>
+					</div>
+					<div>
+					
+						<label for="state">State :</label>
+						<input type="text" name="state" id="state"/>
+					</div>
+					
+				</fieldset>
+				
+				<fieldset>
+					<legend>How To Contact You </legend>
+					
+					<div>
+						<label for="phone">Phone Number :</label>
+						<input type="text" name="phone" id="phone"/>
+					</div>
+					
+					<div>
+						<label for="email">Email :</label>
+						<input type="text" name="email" id="email"/>
+					</div>
+					
+				</fieldset>
+				
+				<fieldset>
+					<legend>How Are You Paying</legend>
+					<div>
+						<input type="checkbox" name="cash" id="cash"/>
+						<label for="cash">Cash</label>
+					</div>
+					<div>
+						<input type="checkbox" name="moneyorder" id="moneyorder"/>
+						<label for="moneyorder">Money Order</label>
+					</div>
+					<div>
+						<label for="paypal">Paypal Account :</label>
+						<input type="text" name="paypal" id="paypal"/>
+					</div>
+					
+				</fieldset>
+				<fieldset>
+					<legend>What Would You Like</legend>
+						<label for="style">Style :</label>
+					<div>
+						<select name="style" id="style">
+							<option>Select Style</option>
+							<option>Valiant Bracelet</option>
+							<option>Renaissance Bracelet</option>
+							<option>Lattice Bracelet</option>
+							<option>Lace Bracelet</option>
+						</select>
+					</div>
+					<div>
+						<label for="metals">Metal Type :</label>
+					</div>
+					<div>
+						<select name="metals" id="metals">
+							<option>Select Metal</option>
+							<option>Aluminum</option>
+							<option>Stainless Steel</option>
+							<option>Brass</option>
+							<option>Bronze</option>
+							<option>Copper</option>
+						</select>
+					</div>
+					<div>
+						<label for="color">Color :</label>
+					</div>
+					<div>
+						<select name="color" id="color">
+							<option>Select Color</option>
+							<option>Steel</option>
+							<option>Blue</option>
+							<option>Brass</option>
+							<option>Bronze</option>
+							<option>Copper</option>
+							<option>Pink</option>
+							<option>Green</option>
+						</select>
+					</div>
+					<div>
+						<label for="size">Size :</label>
+						<input type="text" name="size" id="size"/>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Anything You Would Like To Add</legend>
+					<div>
+						<label for="message">Message :</label>
+					</div>
+					<div>
+						<textarea rows="15" cols="50" name="message" id="message"></textarea>
+					</div>
+				</fieldset>
+		
+		</fieldset>
+		<div>
+			<button type="submit" name="submit" class="button">Send Order</button>
+		</div>
+	</form>
 	
 	<p>Please feel free to check out are Facebook page for more pictures and information
 	at http://www.facebook.com/MetalLotusStudio. &copy; 2012.<p>

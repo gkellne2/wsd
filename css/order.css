@@ -1,0 +1,189 @@
+body{
+	padding:02.7777778%; /*25px/900px*/
+	max-width:935px;
+	margin: 0 auto;
+	font:100%;/*16px*/
+	background-image: url(../images/chainmail.jpg);
+}
+/*main header
+=========================================================================*/
+h1{
+	font-family: 'Sofadi One', cursive;
+	font-size:3.125em; /*50px*/
+}
+h2{
+	font-family: 'Cutive Mono', serif;
+	font-size:1.4375em; /*23px*/
+	
+	width:32.919255%; /*318px*/
+	text-shadow: 2px 4px 8px #111;
+
+}
+/*Navigation
+==========================================================================*/
+#navagation{
+	background:white;
+	margin:0 auto;
+	padding:0;
+	list-style-type:none;
+	font:1em;
+	overflow:hidden;
+	-moz-box-shadow:5px 5px 5px #666;
+	-webkit-box-shadow:5px 5px 5px #666;
+	box-shadow:5px 5px 5px #666;
+}
+
+#navagation li{
+	width:10.330579%;/*100px*/
+	float:left;
+}
+
+#navagation a{
+	text-decoration:none;
+	display:block;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+/*Active buttons
+=========================================================================*/
+a:link{
+	color: #336699;
+}
+a:visited{
+	color: #9999cc;
+}
+a:hover{
+	color: #cc33cc;
+}
+a:active{
+	color: #999;
+}
+
+/*Order Form Header
+========================================================*/
+h3{
+	background:white;
+	font:1.125em; /*18px*/
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	width:99.896801%; /*968px*/
+	-moz-box-shadow:5px 5px 5px #666;
+	-webkit-box-shadow:5px 5px 5px #666;
+	box-shadow:5px 5px 5px #666;
+}
+/*Order Form
+========================================================*/
+input:focus{
+	background:#ffffcc;
+}
+
+form{
+	background:#9999cc;
+	width:51.764706%; /*484px*/
+	margin:0 auto;
+	border:.0625em solid black;
+	
+}
+
+#name_first{
+	display:block;
+	width:93.80531%; /*424px*/
+ }
+#name_last{
+	display:block;
+	width:93.80531%; /*424px*/
+}
+#address{
+	display:block;
+	width:93.80531%; /*424px*/
+}
+#apartment{
+	display:block;
+	width:93.80531%; /*424px*/
+}
+#city{
+	display:block;
+	width:93.80531%; /*424px*/
+}
+#state{
+	display:block;
+	width:93.80531%; /*424px*/
+}
+#phone{
+	display:block;
+	width:93.80531%; /*424px*/
+}
+#email{
+	display:block;
+	width:93.80531%; /*424px*/
+}
+#paypal{
+	display:block;
+	width:93.80531%; /*424px*/
+}
+#size{
+	display:block;
+	width:93.80531%; /*424px*/
+}
+fieldset{
+	background:#9999cc;
+	max-width:100%;
+	}
+
+/*Button
+========================================================================*/
+button{
+	width:100%;/*486px;*/
+	margin:5.144033% auto;
+	-moz-box-shadow:5px 5px 5px #666;
+	-webkit-box-shadow:5px 5px 5px #666;
+	box-shadow:5px 5px 5px #666;
+	}
+
+/*media queries
+
+============================================================================= */
+
+/*Tablet Portrait size to standard 935px (devices and browsers)*/
+@media screen and (min-width:768px) and (max-width:934px){ 
+
+	form{
+		width:100%;
+	}
+}
+
+/*Mobile Landscape  size to Tablet Portrait (devices and browsers)*/
+@media only screen and (min-width:480px) and (max-width:767px){ 
+	form{
+		width:100%;
+	}
+	
+}
+
+
+/*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
+@media only screen and (max-width:479px){
+	form{
+		width:100%;
+	}
+	#navagation li{
+		float:none;
+		margin:0 auto;
+		}	
+	
+	fieldset{
+		width:90%;
+	}
+	#message{
+	width:100%;
+	}
+}
+
+
+
+
+	
+	
+	
