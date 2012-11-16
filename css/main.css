@@ -42,12 +42,10 @@ div{
 	-webkit-box-shadow:5px 5px 5px #666;
 	box-shadow:5px 5px 5px #666;
 }
-
 #navagation li{
 	width:10.330579%;/*100px*/
 	float:left;
 }
-
 #navagation a{
 	text-decoration:none;
 	display:block;
@@ -71,7 +69,6 @@ a:active{
 }
 
 /*Section
-
 ==========================================================================*/
 section p{
 	font:1em;
@@ -87,16 +84,13 @@ aside{
 #free{
 	width:30.959752% /*300px*/
 }
-
 h3{
 	font:1.5625em; /*25px*/
 }
-
 #metal{
 	list-style-type:katakana;
 	font:1em;
 }
-
 h4{
 	background:white;
 	font:1.125em; /*18px*/
@@ -111,7 +105,6 @@ h4{
 }
 
 /*Table
-
 ===========================================================================*/
 h5{
 	background:white;
@@ -144,7 +137,6 @@ th{
 }
 
 /*Images
-
 =============================================================================*/	
 #images{
 	background:white;
@@ -166,7 +158,6 @@ img{
 }
 
 /*Footer
-
 ===============================================================================*/
 h6{
 	font:1.125em; /*18px*/
@@ -181,7 +172,6 @@ h6{
 }
 	
 /*media queries
-
 ============================================================================= */
 
 /*Tablet Portrait size to standard 935px (devices and browsers)*/

@@ -5,6 +5,7 @@ body{
 	font:100%;/*16px*/
 	background-image: url(../images/chainmail.jpg);
 }
+
 /*main header
 =========================================================================*/
 h1{
@@ -14,11 +15,10 @@ h1{
 h2{
 	font-family: 'Cutive Mono', serif;
 	font-size:1.4375em; /*23px*/
-	
 	width:32.919255%; /*318px*/
 	text-shadow: 2px 4px 8px #111;
-
 }
+
 /*Navigation
 ==========================================================================*/
 #navagation{
@@ -32,12 +32,10 @@ h2{
 	-webkit-box-shadow:5px 5px 5px #666;
 	box-shadow:5px 5px 5px #666;
 }
-
 #navagation li{
 	width:10.330579%;/*100px*/
 	float:left;
 }
-
 #navagation a{
 	text-decoration:none;
 	display:block;
@@ -45,6 +43,7 @@ h2{
 	line-height:30px;
 	text-align:center;
 }
+
 /*Active buttons
 =========================================================================*/
 a:link{
@@ -73,20 +72,18 @@ h3{
 	-webkit-box-shadow:5px 5px 5px #666;
 	box-shadow:5px 5px 5px #666;
 }
+
 /*Order Form
 ========================================================*/
 input:focus{
 	background:#ffffcc;
 }
-
 form{
 	background:#9999cc;
 	width:51.764706%; /*484px*/
 	margin:0 auto;
-	border:.0625em solid black;
-	
+	border:.0625em solid black;	
 }
-
 #name_first{
 	display:block;
 	width:93.80531%; /*424px*/
@@ -145,24 +142,18 @@ button{
 /*media queries
 
 ============================================================================= */
-
 /*Tablet Portrait size to standard 935px (devices and browsers)*/
 @media screen and (min-width:768px) and (max-width:934px){ 
-
 	form{
 		width:100%;
 	}
 }
-
 /*Mobile Landscape  size to Tablet Portrait (devices and browsers)*/
 @media only screen and (min-width:480px) and (max-width:767px){ 
 	form{
 		width:100%;
 	}
-	
 }
-
-
 /*Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
 @media only screen and (max-width:479px){
 	form{
@@ -172,7 +163,6 @@ button{
 		float:none;
 		margin:0 auto;
 		}	
-	
 	fieldset{
 		width:90%;
 	}
